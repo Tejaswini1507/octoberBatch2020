@@ -1,0 +1,88 @@
+Installation step for angular
+-Node js  -->download LTS not current from 
+https://nodejs.org/en/download/
+or
+https://nodejs.org/en/blog/release/v12.13.0/
+(after installation do restart)
+-angular
+-visual studio code -->https://code.visualstudio.com/download
+(after installation do restart)
+
+open CMD and Close other application if any open 
+(e.g vscode, notepad etc)
+
+Type
+1.node --version
+2.npm --version
+
+To update node through npm
+npm install npm@latest -g
+
+To install TS
+pc must be connected with an internet.
+npm install -g typescript@4.1.3
+Type 
+tsc --version
+
+To install angular
+pc must be connected with an internet.
+npm install -g @angular/cli@7.3.*
+
+Type
+3. ng --version
+
+********************************************
+if any error occur then use as below Command
+npm cache clear --force
+npm cache verify
+********************************************
+
+Directory
+Folder Structure
+Frontend
+		-TypeScript
+		-Angular 
+1.open angular folder and after that open cmd
+
+ng new hello-world
+Note-(Here hello- world is project name) 
+after hitting above command you will get below questions
+Which you like to add angular routing? Yes or y 
+and do hit enter key
+
+Which stylesheet format would you like? 
+do hit enerer key
+
+
+2.after that do cd hello-world
+3.and run the project
+to run the project you need to hit this command
+ng serve -o 
+or
+ng serve --open
+
+after successful Creation its open browser automatically 
+---> http://localhost:4200/
+
+
+
+***if angular is already installed and want to take latest version
+npm uninstall -g angular-cli
+npm cache clean or npm cache verify #(if npm > 5)
+npm install -g @angular/cli@7.3.*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
